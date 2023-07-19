@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\create.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Komponen\create1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\masterMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Komponen\dtlPesanan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Komponen\dtlPesanan1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\menu1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Komponen\update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\update1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Komponen\widget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

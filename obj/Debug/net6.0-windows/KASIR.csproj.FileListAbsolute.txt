@@ -1,0 +1,89 @@
+D:\UI VISCOD\KASIR\bin\Debug\net6.0-windows\KASIR.exe
+D:\UI VISCOD\KASIR\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\UI VISCOD\KASIR\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\UI VISCOD\KASIR\bin\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\KASIR\bin\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.crud.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.menu.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.menu1.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\UI VISCOD\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\UI VISCOD\New folder (3)\KASIR\bin\Debug\net6.0-windows\KASIR.exe
+D:\UI VISCOD\New folder (3)\KASIR\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\UI VISCOD\New folder (3)\KASIR\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\UI VISCOD\New folder (3)\KASIR\bin\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\New folder (3)\KASIR\bin\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.crud.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.menu.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.menu1.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\UI VISCOD\New folder (3)\KASIR\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.dll
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.pdb
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.exe
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.pdb
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.menu.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.menu1.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
