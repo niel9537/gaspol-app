@@ -33,6 +33,7 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu1));
             panel1 = new Panel();
             label1 = new Label();
             textBox3 = new TextBox();
@@ -50,10 +51,11 @@
             label3 = new Label();
             textBox2 = new TextBox();
             button4 = new Button();
-            button5 = new Button();
-            label2 = new Label();
             panel4 = new Panel();
             panel3 = new Panel();
+            panel5 = new Panel();
+            label2 = new Label();
+            button3 = new Button();
             panel2 = new Panel();
             label4 = new Label();
             textBox4 = new TextBox();
@@ -63,6 +65,7 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel4.SuspendLayout();
             panel3.SuspendLayout();
+            panel5.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -175,20 +178,21 @@
             dataGridView1.AllowUserToResizeColumns = false;
             dataGridView1.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.Gainsboro;
+            dataGridViewCellStyle1.BackColor = Color.White;
             dataGridViewCellStyle1.ForeColor = Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = Color.SteelBlue;
-            dataGridViewCellStyle1.SelectionForeColor = Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle1.SelectionForeColor = Color.Black;
             dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.BorderStyle = BorderStyle.None;
+            dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.SteelBlue;
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.SelectionBackColor = Color.Transparent;
+            dataGridViewCellStyle2.SelectionForeColor = Color.Transparent;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.ColumnHeadersHeight = 30;
@@ -197,33 +201,41 @@
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.White;
             dataGridViewCellStyle3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle3.SelectionForeColor = Color.Black;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.GridColor = Color.WhiteSmoke;
+            dataGridView1.GridColor = Color.Black;
             dataGridView1.Location = new Point(8, 48);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
-            dataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = Color.White;
             dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             dataGridViewCellStyle4.ForeColor = Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = Color.SteelBlue;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle4.SelectionForeColor = Color.Black;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dataGridView1.RowHeadersVisible = false;
+            dataGridView1.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.SelectionBackColor = Color.SteelBlue;
+            dataGridViewCellStyle5.BackColor = Color.White;
+            dataGridViewCellStyle5.ForeColor = Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle5.SelectionForeColor = Color.Black;
             dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridView1.RowTemplate.DefaultCellStyle.BackColor = Color.White;
+            dataGridView1.RowTemplate.DefaultCellStyle.ForeColor = Color.Black;
+            dataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Gainsboro;
+            dataGridView1.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.Black;
             dataGridView1.RowTemplate.DividerHeight = 1;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(394, 369);
+            dataGridView1.Size = new Size(394, 354);
             dataGridView1.TabIndex = 7;
             // 
             // Column1
@@ -298,31 +310,6 @@
             button4.Text = "Bayar";
             button4.UseVisualStyleBackColor = false;
             // 
-            // button5
-            // 
-            button5.BackColor = Color.FromArgb(255, 192, 192);
-            button5.BackgroundImageLayout = ImageLayout.None;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.ForeColor = Color.Red;
-            button5.Location = new Point(301, 6);
-            button5.Name = "button5";
-            button5.Size = new Size(102, 33);
-            button5.TabIndex = 6;
-            button5.Text = "Hapus Pesanan";
-            button5.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.SteelBlue;
-            label2.Location = new Point(2, 1);
-            label2.Name = "label2";
-            label2.Size = new Size(104, 32);
-            label2.TabIndex = 1;
-            label2.Text = "Pesanan";
-            // 
             // panel4
             // 
             panel4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -338,11 +325,10 @@
             // 
             panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             panel3.BackColor = Color.WhiteSmoke;
+            panel3.Controls.Add(panel5);
             panel3.Controls.Add(panel2);
             panel3.Controls.Add(panel1);
             panel3.Controls.Add(dataGridView1);
-            panel3.Controls.Add(button5);
-            panel3.Controls.Add(label2);
             panel3.Controls.Add(panel4);
             panel3.ForeColor = Color.White;
             panel3.Location = new Point(473, 9);
@@ -351,6 +337,42 @@
             panel3.Size = new Size(410, 556);
             panel3.TabIndex = 11;
             // 
+            // panel5
+            // 
+            panel5.BackColor = Color.White;
+            panel5.Controls.Add(label2);
+            panel5.Controls.Add(button3);
+            panel5.Dock = DockStyle.Top;
+            panel5.Location = new Point(5, 5);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(400, 35);
+            panel5.TabIndex = 10;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.SteelBlue;
+            label2.Location = new Point(3, 1);
+            label2.Name = "label2";
+            label2.Size = new Size(104, 32);
+            label2.TabIndex = 1;
+            label2.Text = "Pesanan";
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Transparent;
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+            button3.BackgroundImageLayout = ImageLayout.Center;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(360, 0);
+            button3.Name = "button3";
+            button3.Size = new Size(35, 35);
+            button3.TabIndex = 63;
+            button3.UseVisualStyleBackColor = false;
+            // 
             // panel2
             // 
             panel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -358,9 +380,9 @@
             panel2.Controls.Add(label4);
             panel2.Controls.Add(textBox4);
             panel2.Controls.Add(button2);
-            panel2.Location = new Point(9, 420);
+            panel2.Location = new Point(9, 423);
             panel2.Name = "panel2";
-            panel2.Size = new Size(394, 128);
+            panel2.Size = new Size(394, 125);
             panel2.TabIndex = 9;
             // 
             // label4
@@ -381,7 +403,7 @@
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.ForeColor = Color.SteelBlue;
-            textBox4.Location = new Point(222, 43);
+            textBox4.Location = new Point(222, 41);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.PlaceholderText = "Rp.0";
@@ -401,6 +423,7 @@
             button2.TabIndex = 5;
             button2.Text = "Bayar";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // menu1
             // 
@@ -419,7 +442,8 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             panel3.ResumeLayout(false);
-            panel3.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
@@ -441,8 +465,6 @@
         private Label label3;
         private TextBox textBox2;
         private Button button4;
-        private Button button5;
-        private Label label2;
         private Panel panel4;
         private Panel panel3;
         private Panel panel2;
@@ -452,5 +474,8 @@
         private widget widget1;
         private widget widget2;
         private widget widget3;
+        private Panel panel5;
+        private Label label2;
+        private Button button3;
     }
 }

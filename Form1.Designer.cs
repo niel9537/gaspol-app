@@ -60,12 +60,12 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.WhiteSmoke;
+            button3.BackColor = Color.SteelBlue;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = Color.Red;
+            button3.ForeColor = Color.White;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.ImageAlign = ContentAlignment.MiddleRight;
             button3.Location = new Point(0, 534);

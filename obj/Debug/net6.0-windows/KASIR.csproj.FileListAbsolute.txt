@@ -87,3 +87,38 @@ D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
 D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\KASIR.exe
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\UI VISCOD\yg bener\gaspol-app\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.menu.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.menu1.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\UI VISCOD\yg bener\gaspol-app\obj\Debug\net6.0-windows\KASIR.Komponen.pembayaran.resources

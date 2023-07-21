@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KASIR.Komponen;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,6 +27,12 @@ namespace KASIR.komponen
 
 
             dtl.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pembayaran pembayaran = new pembayaran();
+            pembayaran.Show();
         }
     }
 }

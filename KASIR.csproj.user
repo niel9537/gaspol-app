@@ -25,6 +25,9 @@
     <Compile Update="Komponen\menu1.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Komponen\pembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Komponen\update.cs">
       <SubType>Form</SubType>
     </Compile>

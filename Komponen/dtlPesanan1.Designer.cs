@@ -37,6 +37,10 @@
             label2 = new Label();
             label1 = new Label();
             panel3 = new Panel();
+            panel4 = new Panel();
+            textBox1 = new TextBox();
+            label3 = new Label();
+            label6 = new Label();
             label7 = new Label();
             button9 = new Button();
             button8 = new Button();
@@ -50,10 +54,6 @@
             button6 = new Button();
             textBox2 = new TextBox();
             label5 = new Label();
-            button4 = new Button();
-            button3 = new Button();
-            textBox1 = new TextBox();
-            label3 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -145,6 +145,11 @@
             // 
             // panel3
             // 
+            panel3.AutoScroll = true;
+            panel3.Controls.Add(panel4);
+            panel3.Controls.Add(textBox1);
+            panel3.Controls.Add(label3);
+            panel3.Controls.Add(label6);
             panel3.Controls.Add(label7);
             panel3.Controls.Add(button9);
             panel3.Controls.Add(button8);
@@ -158,23 +163,54 @@
             panel3.Controls.Add(button6);
             panel3.Controls.Add(textBox2);
             panel3.Controls.Add(label5);
-            panel3.Controls.Add(button4);
-            panel3.Controls.Add(button3);
-            panel3.Controls.Add(textBox1);
-            panel3.Controls.Add(label3);
-            panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(0, 0);
+            panel3.Dock = DockStyle.Bottom;
+            panel3.Location = new Point(0, 98);
             panel3.Name = "panel3";
-            panel3.Size = new Size(548, 398);
+            panel3.Size = new Size(548, 300);
             panel3.TabIndex = 7;
+            // 
+            // panel4
+            // 
+            panel4.Dock = DockStyle.Bottom;
+            panel4.Location = new Point(0, 413);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(531, 35);
+            panel4.TabIndex = 69;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(88, 319);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(370, 94);
+            textBox1.TabIndex = 68;
+            // 
+            // label3
+            // 
+            label3.BackColor = Color.DarkGray;
+            label3.Location = new Point(79, 293);
+            label3.Name = "label3";
+            label3.Size = new Size(390, 1);
+            label3.TabIndex = 67;
+            label3.Text = "label3";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(85, 295);
+            label6.Name = "label6";
+            label6.Size = new Size(65, 21);
+            label6.TabIndex = 66;
+            label6.Text = "Catatan";
             // 
             // label7
             // 
             label7.BackColor = Color.DarkGray;
-            label7.Location = new Point(76, 205);
+            label7.Location = new Point(79, 106);
             label7.Name = "label7";
             label7.Size = new Size(390, 1);
-            label7.TabIndex = 36;
+            label7.TabIndex = 65;
             label7.Text = "label7";
             // 
             // button9
@@ -184,10 +220,10 @@
             button9.FlatStyle = FlatStyle.Flat;
             button9.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button9.ForeColor = Color.SteelBlue;
-            button9.Location = new Point(85, 327);
+            button9.Location = new Point(88, 228);
             button9.Name = "button9";
             button9.Size = new Size(180, 40);
-            button9.TabIndex = 35;
+            button9.TabIndex = 64;
             button9.Text = "Shope";
             button9.UseVisualStyleBackColor = false;
             // 
@@ -198,10 +234,10 @@
             button8.FlatStyle = FlatStyle.Flat;
             button8.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button8.ForeColor = Color.SteelBlue;
-            button8.Location = new Point(275, 281);
+            button8.Location = new Point(278, 182);
             button8.Name = "button8";
             button8.Size = new Size(180, 40);
-            button8.TabIndex = 34;
+            button8.TabIndex = 63;
             button8.Text = "Gojek";
             button8.UseVisualStyleBackColor = false;
             // 
@@ -212,10 +248,10 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button7.ForeColor = Color.SteelBlue;
-            button7.Location = new Point(85, 281);
+            button7.Location = new Point(88, 182);
             button7.Name = "button7";
             button7.Size = new Size(180, 40);
-            button7.TabIndex = 33;
+            button7.TabIndex = 62;
             button7.Text = "Grab";
             button7.UseVisualStyleBackColor = false;
             // 
@@ -226,10 +262,10 @@
             button10.FlatStyle = FlatStyle.Flat;
             button10.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button10.ForeColor = Color.SteelBlue;
-            button10.Location = new Point(275, 235);
+            button10.Location = new Point(278, 136);
             button10.Name = "button10";
             button10.Size = new Size(180, 40);
-            button10.TabIndex = 32;
+            button10.TabIndex = 61;
             button10.Text = "Take Away";
             button10.UseVisualStyleBackColor = false;
             // 
@@ -240,10 +276,10 @@
             button11.FlatStyle = FlatStyle.Flat;
             button11.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button11.ForeColor = Color.SteelBlue;
-            button11.Location = new Point(85, 235);
+            button11.Location = new Point(88, 136);
             button11.Name = "button11";
             button11.Size = new Size(180, 40);
-            button11.TabIndex = 31;
+            button11.TabIndex = 60;
             button11.Text = "Dine In";
             button11.UseVisualStyleBackColor = false;
             // 
@@ -252,29 +288,29 @@
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label9.ForeColor = Color.DarkGray;
-            label9.Location = new Point(191, 207);
+            label9.Location = new Point(194, 108);
             label9.Name = "label9";
             label9.Size = new Size(90, 21);
-            label9.TabIndex = 30;
+            label9.TabIndex = 59;
             label9.Text = "( Pilih Satu)";
             // 
             // label10
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.Location = new Point(81, 207);
+            label10.Location = new Point(84, 108);
             label10.Name = "label10";
             label10.Size = new Size(114, 21);
-            label10.TabIndex = 29;
+            label10.TabIndex = 58;
             label10.Text = "Tipe Penjualan";
             // 
             // label4
             // 
             label4.BackColor = Color.DarkGray;
-            label4.Location = new Point(76, 114);
+            label4.Location = new Point(79, 15);
             label4.Name = "label4";
             label4.Size = new Size(390, 1);
-            label4.TabIndex = 28;
+            label4.TabIndex = 57;
             label4.Text = "label4";
             // 
             // button5
@@ -284,10 +320,10 @@
             button5.BackgroundImageLayout = ImageLayout.Center;
             button5.FlatStyle = FlatStyle.Flat;
             button5.ForeColor = Color.SteelBlue;
-            button5.Location = new Point(275, 142);
+            button5.Location = new Point(278, 43);
             button5.Name = "button5";
             button5.Size = new Size(90, 40);
-            button5.TabIndex = 27;
+            button5.TabIndex = 56;
             button5.UseVisualStyleBackColor = false;
             // 
             // button6
@@ -297,10 +333,10 @@
             button6.BackgroundImageLayout = ImageLayout.Center;
             button6.FlatStyle = FlatStyle.Flat;
             button6.ForeColor = Color.SteelBlue;
-            button6.Location = new Point(365, 142);
+            button6.Location = new Point(368, 43);
             button6.Name = "button6";
             button6.Size = new Size(90, 40);
-            button6.TabIndex = 26;
+            button6.TabIndex = 55;
             button6.UseVisualStyleBackColor = false;
             // 
             // textBox2
@@ -308,74 +344,24 @@
             textBox2.BackColor = Color.White;
             textBox2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
             textBox2.ForeColor = Color.SteelBlue;
-            textBox2.Location = new Point(85, 142);
+            textBox2.Location = new Point(88, 43);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "0";
             textBox2.RightToLeft = RightToLeft.Yes;
             textBox2.Size = new Size(180, 40);
-            textBox2.TabIndex = 25;
+            textBox2.TabIndex = 54;
             textBox2.TextAlign = HorizontalAlignment.Center;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(82, 116);
+            label5.Location = new Point(85, 17);
             label5.Name = "label5";
             label5.Size = new Size(60, 21);
-            label5.TabIndex = 24;
+            label5.TabIndex = 53;
             label5.Text = "Jumlah";
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.Transparent;
-            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
-            button4.BackgroundImageLayout = ImageLayout.Center;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.ForeColor = Color.SteelBlue;
-            button4.Location = new Point(275, 38);
-            button4.Name = "button4";
-            button4.Size = new Size(90, 40);
-            button4.TabIndex = 15;
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Transparent;
-            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
-            button3.BackgroundImageLayout = ImageLayout.Center;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = Color.SteelBlue;
-            button3.Location = new Point(365, 38);
-            button3.Name = "button3";
-            button3.Size = new Size(90, 40);
-            button3.TabIndex = 14;
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.White;
-            textBox1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.SteelBlue;
-            textBox1.Location = new Point(85, 38);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "0";
-            textBox1.RightToLeft = RightToLeft.Yes;
-            textBox1.Size = new Size(180, 40);
-            textBox1.TabIndex = 13;
-            textBox1.TextAlign = HorizontalAlignment.Center;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(82, 12);
-            label3.Name = "label3";
-            label3.Size = new Size(60, 21);
-            label3.TabIndex = 12;
-            label3.Text = "Jumlah";
             // 
             // dtlPesanan1
             // 
@@ -406,6 +392,9 @@
         private Label label2;
         private Label label1;
         private Panel panel3;
+        private TextBox textBox1;
+        private Label label3;
+        private Label label6;
         private Label label7;
         private Button button9;
         private Button button8;
@@ -419,9 +408,6 @@
         private Button button6;
         private TextBox textBox2;
         private Label label5;
-        private Button button4;
-        private Button button3;
-        private TextBox textBox1;
-        private Label label3;
+        private Panel panel4;
     }
 }

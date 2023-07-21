@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\ATP2\\GaspolApp\\KASIR.csproj": {}
+    "D:\\UI VISCOD\\yg bener\\gaspol-app\\KASIR.csproj": {}
   },
   "projects": {
-    "D:\\Project\\ATP2\\GaspolApp\\KASIR.csproj": {
+    "D:\\UI VISCOD\\yg bener\\gaspol-app\\KASIR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\ATP2\\GaspolApp\\KASIR.csproj",
+        "projectUniqueName": "D:\\UI VISCOD\\yg bener\\gaspol-app\\KASIR.csproj",
         "projectName": "KASIR",
-        "projectPath": "D:\\Project\\ATP2\\GaspolApp\\KASIR.csproj",
-        "packagesPath": "C:\\Users\\Niel\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\ATP2\\GaspolApp\\obj\\",
+        "projectPath": "D:\\UI VISCOD\\yg bener\\gaspol-app\\KASIR.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\UI VISCOD\\yg bener\\gaspol-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Niel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
