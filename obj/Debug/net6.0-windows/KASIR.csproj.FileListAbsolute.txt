@@ -87,3 +87,5 @@ D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
 D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources

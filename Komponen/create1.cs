@@ -20,7 +20,12 @@ namespace KASIR.komponen
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-           
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

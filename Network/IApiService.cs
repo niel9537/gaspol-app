@@ -9,5 +9,7 @@ namespace KASIR.Network
     public interface IApiService
     {
         Task<string> Get(string url);
+        Task<string> GetMenuByID(string url, string id);
+        Task<HttpResponseMessage> PostAddMenu(string jsonString, string url);
     }
 }
