@@ -10,6 +10,9 @@
     <Compile Update="Komponen\create1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Komponen\dataBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Komponen\masterMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>

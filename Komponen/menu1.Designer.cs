@@ -124,9 +124,9 @@
             textBox1.Anchor = AnchorStyles.None;
             textBox1.AutoCompleteSource = AutoCompleteSource.FileSystem;
             textBox1.BackColor = Color.White;
-            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.White;
+            textBox1.ForeColor = Color.Gray;
             textBox1.Location = new Point(24, 10);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -201,7 +201,7 @@
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.White;
             dataGridViewCellStyle3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.ForeColor = Color.White;
             dataGridViewCellStyle3.SelectionBackColor = Color.Gainsboro;
             dataGridViewCellStyle3.SelectionForeColor = Color.Black;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
