@@ -23,6 +23,7 @@ namespace KASIR.komponen
         private List<string> namaVarian = new List<string>();
         private List<string> hargaVarian = new List<string>();
         public string idmenu;
+        private List<Panel> dynamicGroups = new List<Panel>();
         public detailMenuForm(string id)
         {
             InitializeComponent();
@@ -34,7 +35,7 @@ namespace KASIR.komponen
             cmbTipe.Items.Add("Silahkan pilih tipe menu");
             cmbTipe.SelectedIndex = 2;
             cmbTipe.ForeColor = Color.Gray;
-           idmenu = id;
+            idmenu = id;
             LoadDataAsync();
         }
 
@@ -55,18 +56,58 @@ namespace KASIR.komponen
         }
         private async void LoadDataAsync()
         {
-                IApiService apiService = new ApiService();
-                // Retrieve data from the API
-                string response = await apiService.GetMenuByID("/menu",idmenu);
+            IApiService apiService = new ApiService();
+            // Retrieve data from the API
+            string response = await apiService.GetMenuByID("/menu", idmenu);
 
-                // Convert the JSON response to a list of objects (assuming it's an array)
-                GetMenuByIdModel menuModel = JsonConvert.DeserializeObject<GetMenuByIdModel>(response);
-                DataMenu data = menuModel.data;
-                // Create a DataTable to hold the data
-                txtNama.Text = data.name;
-               
+            // Convert the JSON response to a list of objects (assuming it's an array)
+            GetMenuByIdModel menuModel = JsonConvert.DeserializeObject<GetMenuByIdModel>(response);
+            DataMenu data = menuModel.data;
+            // Create a DataTable to hold the data
+            if (data.menu_type.Equals("Makanan"))
+            {
+                cmbTipe.SelectedIndex = 0;
+            }
+            else
+            {
+                cmbTipe.SelectedIndex = 1;
+            }
+            txtNama.Text = data.name;
+            txtHarga.Text = data.price.ToString();
+            for (int i = 0; i < data.menu_details.Count; i++)
+            {
+                Panel newGroup = new Panel
+                {
+                    Width = 560, // Adjust the width as needed
+                    Height = 90  // Adjust the height as needed
+                };
+
+                // Create two TextBoxes
+
+                TextBox textBox1 = new TextBox { Width = 560, PlaceholderText = "Nama Varian ke " + (flowVarian.Controls.Count + 1) };
+                TextBox textBox2 = new TextBox { Width = 560, Top = textBox1.Height + 5, PlaceholderText = "Harga Varian ke " + (flowVarian.Controls.Count + 1) };
+                Button buttonRemove = new Button { Width = 560, Top = textBox1.Height + 35, Text = "Batal" };
+                buttonRemove.Click += (s, ev) => RemoveGroup(newGroup);
+                // Add the TextBoxes to the Panel
+                newGroup.Controls.Add(textBox1);
+                newGroup.Controls.Add(textBox2);
+                newGroup.Controls.Add(buttonRemove);
+                dynamicGroups.Add(newGroup);
+
+                textBox1.Text = data.menu_details[i].varian;
+                textBox2.Text = data.menu_details[i].price.ToString();
+                // Add the Panel (group) to the FlowLayoutPanel
+                flowVarian.Controls.Add(newGroup);
+            }
+
         }
+        private void RemoveGroup(Panel newGroup)
+        {
+            flowVarian.Controls.Remove(newGroup);
 
+            // Remove the group from the list of dynamic groups
+            dynamicGroups.Remove(newGroup);
+        }
         private void btnTambah_Click_1(object sender, EventArgs e)
         {
             // Create a new Panel to hold two TextBoxes
@@ -194,27 +235,18 @@ namespace KASIR.komponen
                 price = txtHarga.Text,
                 menu_details = menuDetailsList
             };
-
-            // Convert the JSON object to a JSON string
             string jsonString = JsonConvert.SerializeObject(json, Formatting.Indented);
-
-         
             IApiService apiService = new ApiService();
-
-            // Send the POST request with the JSON string as the raw JSON body
-            HttpResponseMessage response = await apiService.PostAddMenu(jsonString, "/menu");
-
+            HttpResponseMessage response = await apiService.UpdateMenu("/menu", idmenu, jsonString);
             if (response != null)
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    // Request succeeded
-                    MessageBox.Show("Request succeeded! Status code: " + response.StatusCode);
+                    MessageBox.Show("Data berhasil diperbaharui " + response.StatusCode);
                 }
                 else
                 {
-                    // Request failed
-                    MessageBox.Show("Request failed! Status code: " + response.StatusCode);
+                    MessageBox.Show("Data gagal diperbaharui " + response.StatusCode);
                 }
             }
         }
@@ -229,9 +261,22 @@ namespace KASIR.komponen
 
         }
 
-        private void btnHapus_Click(object sender, EventArgs e)
+        private async void btnHapus_Click(object sender, EventArgs e)
         {
 
+            IApiService apiService = new ApiService();
+            HttpResponseMessage response = await apiService.DeleteMenu("/menu", idmenu);
+            if (response != null)
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    MessageBox.Show("Data berhasil dihapus " + response.StatusCode);
+                }
+                else
+                {
+                    MessageBox.Show("Data gagal dihapus " + response.StatusCode);
+                }
+            }
         }
     }
 }

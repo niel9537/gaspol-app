@@ -38,21 +38,25 @@
             dataGridView1 = new DataGridView();
             label1 = new Label();
             panel1 = new Panel();
+            panel3 = new Panel();
             textBox1 = new TextBox();
             btnAddMenu = new Button();
+            pictureBox1 = new PictureBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.SteelBlue;
-            label2.Location = new Point(3, 20);
+            label2.Location = new Point(13, 28);
             label2.Name = "label2";
-            label2.Size = new Size(77, 32);
+            label2.Size = new Size(45, 19);
             label2.TabIndex = 2;
             label2.Text = "Menu";
             label2.Click += label2_Click;
@@ -148,7 +152,7 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(panel3);
             panel1.Controls.Add(btnAddMenu);
             panel1.Controls.Add(label2);
             panel1.Dock = DockStyle.Top;
@@ -157,11 +161,25 @@
             panel1.Size = new Size(912, 70);
             panel1.TabIndex = 4;
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.WhiteSmoke;
+            panel3.Controls.Add(pictureBox1);
+            panel3.Controls.Add(textBox1);
+            panel3.Location = new Point(86, 23);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(643, 29);
+            panel3.TabIndex = 13;
+            // 
             // textBox1
             // 
-            textBox1.Location = new Point(86, 27);
+            textBox1.BackColor = Color.WhiteSmoke;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
+            textBox1.Location = new Point(17, 5);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(639, 23);
+            textBox1.PlaceholderText = "Masukan nama menu ...";
+            textBox1.Size = new Size(626, 18);
             textBox1.TabIndex = 12;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -179,6 +197,17 @@
             btnAddMenu.UseVisualStyleBackColor = false;
             btnAddMenu.Click += btnSimpan_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources.search_20px;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox1.InitialImage = Properties.Resources.search_20px;
+            pictureBox1.Location = new Point(613, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(30, 28);
+            pictureBox1.TabIndex = 13;
+            pictureBox1.TabStop = false;
+            // 
             // masterMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -191,6 +220,9 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -202,5 +234,7 @@
         private DataGridView dataGridView1;
         private Button btnAddMenu;
         private TextBox textBox1;
+        private Panel panel3;
+        private PictureBox pictureBox1;
     }
 }

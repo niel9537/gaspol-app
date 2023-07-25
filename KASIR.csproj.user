@@ -19,11 +19,8 @@
     <Compile Update="Komponen\dtlPesanan1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Komponen\menu.cs">
+    <Compile Update="Komponen\masterPos.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Komponen\menu1.cs">
-      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Komponen\update.cs">
       <SubType>Form</SubType>

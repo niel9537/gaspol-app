@@ -67,8 +67,6 @@ D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resourc
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
-D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.menu.resources
-D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.menu1.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
@@ -89,3 +87,4 @@ D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
 D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources

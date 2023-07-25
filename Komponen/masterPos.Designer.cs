@@ -1,6 +1,6 @@
 ﻿namespace KASIR.komponen
 {
-    partial class menu
+    partial class masterPos
     {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,11 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
             panel3 = new Panel();
             panel1 = new Panel();
             label1 = new Label();
@@ -49,16 +54,24 @@
             label3 = new Label();
             textBox2 = new TextBox();
             button4 = new Button();
-            textBox1 = new TextBox();
+            txtCari = new TextBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
-            widget1 = new widget();
-            widget2 = new widget();
-            widget3 = new widget();
+            panel2 = new Panel();
+            pictureBox1 = new PictureBox();
+            flowLayoutPanel2 = new FlowLayoutPanel();
+            dataGridView3 = new DataGridView();
+            panel5 = new Panel();
+            label4 = new Label();
             panel3.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel4.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // panel3
@@ -90,13 +103,14 @@
             // 
             // label1
             // 
-            label1.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI Black", 10F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.SteelBlue;
-            label1.Location = new Point(4, 12);
+            label1.Location = new Point(-3, 11);
             label1.Name = "label1";
             label1.Size = new Size(100, 23);
             label1.TabIndex = 7;
             label1.Text = "Total";
+            label1.Click += label1_Click;
             // 
             // textBox3
             // 
@@ -106,12 +120,12 @@
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             textBox3.ForeColor = Color.SteelBlue;
-            textBox3.Location = new Point(222, 43);
+            textBox3.Location = new Point(355, 43);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Rp.0";
             textBox3.RightToLeft = RightToLeft.No;
-            textBox3.Size = new Size(169, 30);
+            textBox3.Size = new Size(39, 30);
             textBox3.TabIndex = 6;
             // 
             // button1
@@ -224,23 +238,25 @@
             button5.FlatAppearance.BorderSize = 0;
             button5.FlatStyle = FlatStyle.Flat;
             button5.ForeColor = Color.Red;
-            button5.Location = new Point(301, 6);
+            button5.Location = new Point(272, -2);
             button5.Name = "button5";
-            button5.Size = new Size(102, 33);
+            button5.Size = new Size(130, 29);
             button5.TabIndex = 6;
             button5.Text = "Hapus Pesanan";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.SteelBlue;
-            label2.Location = new Point(13, 11);
+            label2.Location = new Point(0, 0);
             label2.Name = "label2";
-            label2.Size = new Size(104, 32);
+            label2.Size = new Size(60, 19);
             label2.TabIndex = 1;
             label2.Text = "Pesanan";
+            label2.Click += label2_Click;
             // 
             // panel4
             // 
@@ -292,68 +308,165 @@
             button4.Text = "Bayar";
             button4.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtCari
             // 
-            textBox1.Anchor = AnchorStyles.None;
-            textBox1.AutoCompleteSource = AutoCompleteSource.FileSystem;
-            textBox1.BackColor = Color.WhiteSmoke;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(16, 9);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = " Cari menu...";
-            textBox1.RightToLeft = RightToLeft.No;
-            textBox1.Size = new Size(404, 30);
-            textBox1.TabIndex = 6;
+            txtCari.Anchor = AnchorStyles.None;
+            txtCari.AutoCompleteSource = AutoCompleteSource.FileSystem;
+            txtCari.BackColor = Color.White;
+            txtCari.BorderStyle = BorderStyle.None;
+            txtCari.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            txtCari.ForeColor = Color.Black;
+            txtCari.Location = new Point(18, 2);
+            txtCari.Multiline = true;
+            txtCari.Name = "txtCari";
+            txtCari.PlaceholderText = "Masukan nama menu ...";
+            txtCari.RightToLeft = RightToLeft.No;
+            txtCari.Size = new Size(393, 25);
+            txtCari.TabIndex = 6;
+            txtCari.TextChanged += txtCari_TextChanged;
             // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Anchor = AnchorStyles.None;
-            flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.BackColor = Color.Transparent;
-            flowLayoutPanel1.Controls.Add(widget1);
-            flowLayoutPanel1.Controls.Add(widget2);
-            flowLayoutPanel1.Controls.Add(widget3);
+            flowLayoutPanel1.BackColor = Color.White;
+            flowLayoutPanel1.Controls.Add(panel2);
+            flowLayoutPanel1.Controls.Add(flowLayoutPanel2);
             flowLayoutPanel1.ForeColor = Color.FromArgb(64, 64, 64);
-            flowLayoutPanel1.Location = new Point(16, 51);
+            flowLayoutPanel1.Location = new Point(6, 7);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(404, 520);
+            flowLayoutPanel1.Size = new Size(414, 564);
             flowLayoutPanel1.TabIndex = 7;
             // 
-            // widget1
+            // panel2
             // 
-            widget1.Location = new Point(3, 3);
-            widget1.Name = "widget1";
-            widget1.Size = new Size(128, 123);
-            widget1.TabIndex = 0;
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(txtCari);
+            panel2.Location = new Point(3, 3);
+            panel2.Margin = new Padding(3, 3, 3, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(414, 30);
+            panel2.TabIndex = 7;
             // 
-            // widget2
+            // pictureBox1
             // 
-            widget2.Location = new Point(137, 3);
-            widget2.Name = "widget2";
-            widget2.Size = new Size(128, 123);
-            widget2.TabIndex = 1;
+            pictureBox1.BackgroundImage = Properties.Resources.search_20px;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox1.InitialImage = Properties.Resources.search_20px;
+            pictureBox1.Location = new Point(363, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(30, 28);
+            pictureBox1.TabIndex = 9;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
-            // widget3
+            // flowLayoutPanel2
             // 
-            widget3.Location = new Point(271, 3);
-            widget3.Name = "widget3";
-            widget3.Size = new Size(128, 123);
-            widget3.TabIndex = 2;
+            flowLayoutPanel2.Controls.Add(dataGridView3);
+            flowLayoutPanel2.Location = new Point(3, 36);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new Size(393, 563);
+            flowLayoutPanel2.TabIndex = 8;
             // 
-            // menu
+            // dataGridView3
+            // 
+            dataGridView3.AllowUserToAddRows = false;
+            dataGridView3.AllowUserToDeleteRows = false;
+            dataGridView3.AllowUserToResizeColumns = false;
+            dataGridView3.AllowUserToResizeRows = false;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.White;
+            dataGridViewCellStyle6.ForeColor = Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle6.SelectionForeColor = Color.Black;
+            dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridView3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView3.BackgroundColor = Color.White;
+            dataGridView3.BorderStyle = BorderStyle.None;
+            dataGridView3.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            dataGridView3.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = Color.SteelBlue;
+            dataGridViewCellStyle7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle7.ForeColor = Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = Color.Transparent;
+            dataGridViewCellStyle7.SelectionForeColor = Color.Transparent;
+            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
+            dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridView3.ColumnHeadersHeight = 30;
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = Color.White;
+            dataGridViewCellStyle8.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle8.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle8.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle8.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.False;
+            dataGridView3.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridView3.EnableHeadersVisualStyles = false;
+            dataGridView3.GridColor = Color.Black;
+            dataGridView3.ImeMode = ImeMode.NoControl;
+            dataGridView3.Location = new Point(3, 3);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.ReadOnly = true;
+            dataGridView3.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = Color.White;
+            dataGridViewCellStyle9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle9.ForeColor = Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle9.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
+            dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridView3.RowHeadersVisible = false;
+            dataGridView3.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = Color.White;
+            dataGridViewCellStyle10.ForeColor = Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = Color.Gainsboro;
+            dataGridViewCellStyle10.SelectionForeColor = Color.Black;
+            dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridView3.RowTemplate.DefaultCellStyle.BackColor = Color.White;
+            dataGridView3.RowTemplate.DefaultCellStyle.ForeColor = Color.Black;
+            dataGridView3.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Gainsboro;
+            dataGridView3.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.Black;
+            dataGridView3.RowTemplate.DividerHeight = 1;
+            dataGridView3.RowTemplate.Height = 40;
+            dataGridView3.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView3.Size = new Size(396, 509);
+            dataGridView3.TabIndex = 13;
+            dataGridView3.CellContentClick += dataGridView2_CellContentClick;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(label4);
+            panel5.Location = new Point(3, 605);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(390, 39);
+            panel5.TabIndex = 14;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(125, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(124, 17);
+            label4.TabIndex = 0;
+            label4.Text = "Tampil Semua Item";
+            label4.Click += label4_Click;
+            // 
+            // masterPos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(862, 580);
+            Controls.Add(panel5);
             Controls.Add(panel3);
-            Controls.Add(textBox1);
             Controls.Add(flowLayoutPanel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "menu";
+            Name = "masterPos";
             Text = "menu";
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
@@ -363,8 +476,14 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             flowLayoutPanel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            flowLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -381,14 +500,17 @@
         private Label label3;
         private TextBox textBox2;
         private Button button4;
-        private TextBox textBox1;
+        private TextBox txtCari;
         private FlowLayoutPanel flowLayoutPanel1;
-        private widget widget1;
-        private widget widget2;
-        private widget widget3;
         private Panel panel1;
         private Label label1;
         private TextBox textBox3;
         private Button button1;
+        private Panel panel2;
+        private DataGridView dataGridView3;
+        private FlowLayoutPanel flowLayoutPanel2;
+        private PictureBox pictureBox1;
+        private Panel panel5;
+        private Label label4;
     }
 }

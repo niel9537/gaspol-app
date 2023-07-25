@@ -9,7 +9,8 @@ namespace KASIR
             InitializeComponent();
             panel3.Height = button6.Height;
             panel3.Top = button6.Top;
-            menu1 m = new menu1();
+            masterPos m = new masterPos();
+            m.TopLevel = false;
             m.Dock = DockStyle.Fill;
             panel1.Controls.Add(m);
             m.BringToFront();
@@ -25,7 +26,8 @@ namespace KASIR
         {
             panel3.Height = button6.Height;
             panel3.Top = button6.Top;
-            menu1 m = new menu1();
+            masterPos m = new masterPos();
+            m.TopLevel = false;
             m.Dock = DockStyle.Fill;
             panel1.Controls.Add(m);
             m.BringToFront();
@@ -46,6 +48,11 @@ namespace KASIR
             panel1.Controls.Add(c);
             c.BringToFront();
             c.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

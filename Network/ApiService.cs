@@ -21,7 +21,7 @@ namespace KASIR.Network
             httpClient.DefaultRequestHeaders.Accept.Clear();
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
-
+        //Menu
         public async Task<string> Get(string url)
         {
             HttpResponseMessage response = await httpClient.GetAsync(url);
@@ -36,23 +36,31 @@ namespace KASIR.Network
         }
         public async Task<HttpResponseMessage> PostAddMenu(string jsonString, string url)
         {
+            StringContent content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await httpClient.PostAsync(url,content);
+            response.EnsureSuccessStatusCode();
+            return response;
+        }
+        public async Task<HttpResponseMessage> UpdateMenu(string url, string id, string jsonString)
+        {
+            StringContent content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await httpClient.PatchAsync(url + "/" + id,content);
+            response.EnsureSuccessStatusCode();
+            return response;
+        }
+        public async Task<HttpResponseMessage> DeleteMenu(string url, string id)
+        {
+            HttpResponseMessage response = await httpClient.DeleteAsync(url + "/" + id);
+            response.EnsureSuccessStatusCode();
+            return response;
+        }
 
-            try
-            {
-                // Set the request content to the JSON string
-                StringContent content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-
-                // Send the POST request with the JSON string as the raw JSON body
-                HttpResponseMessage response = await httpClient.PostAsync(url, content);
-
-                return response;
-            }
-            catch (Exception ex)
-            {
-                // Handle any exception that might occur during the request
-                Console.WriteLine("An error occurred: " + ex.Message);
-                return null;
-            }
+        //Transaksi
+        public async Task<string> GetListMenu(string url)
+        {
+            HttpResponseMessage response = await httpClient.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+            return await response.Content.ReadAsStringAsync();
         }
     }
 }

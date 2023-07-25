@@ -60,7 +60,7 @@
             // 
             // btnHapus
             // 
-            btnHapus.BackColor = Color.WhiteSmoke;
+            btnHapus.BackColor = Color.FromArgb(255, 192, 192);
             btnHapus.FlatAppearance.BorderSize = 0;
             btnHapus.FlatStyle = FlatStyle.Flat;
             btnHapus.ForeColor = Color.Red;
