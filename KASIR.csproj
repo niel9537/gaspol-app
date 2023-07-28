@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Komponen\detailMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\createMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

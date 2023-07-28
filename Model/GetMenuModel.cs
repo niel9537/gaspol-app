@@ -16,5 +16,6 @@ namespace KASIR.Model
         public int id { get; set; }
         public string name { get; set; }
         public string menu_type { get; set; }
+        public float price { get; set; }
     }
 }

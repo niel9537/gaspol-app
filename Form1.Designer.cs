@@ -35,11 +35,9 @@
             button2 = new Button();
             button6 = new Button();
             panel3 = new Panel();
-            pictureBox1 = new PictureBox();
             panel1 = new Panel();
             panel4 = new Panel();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -51,7 +49,6 @@
             panel2.Controls.Add(button2);
             panel2.Controls.Add(button6);
             panel2.Controls.Add(panel3);
-            panel2.Controls.Add(pictureBox1);
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
@@ -60,12 +57,13 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.SteelBlue;
+            button3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            button3.BackColor = Color.WhiteSmoke;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = Color.White;
+            button3.ForeColor = Color.SteelBlue;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.ImageAlign = ContentAlignment.MiddleRight;
             button3.Location = new Point(0, 534);
@@ -137,20 +135,6 @@
             panel3.Size = new Size(10, 66);
             panel3.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.ErrorImage = null;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(17, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(65, 64);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
-            // 
             // panel1
             // 
             panel1.BackColor = Color.Transparent;
@@ -160,6 +144,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(912, 580);
             panel1.TabIndex = 4;
+            panel1.Paint += panel1_Paint;
             // 
             // panel4
             // 
@@ -185,14 +170,12 @@
             Text = "Kasir";
             Load += Form1_Load;
             panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
         private Panel panel2;
-        private PictureBox pictureBox1;
         private Button button6;
         private Panel panel1;
         private Panel panel3;

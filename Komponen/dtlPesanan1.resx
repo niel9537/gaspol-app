@@ -132,4 +132,18 @@
         M3M07bXvdBkAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="button4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAD1JREFUOE9jGAWjYBACIyB2IREbAjFWEAHE/8nEYUCMAcKBGJtiYnAoEGMFIOdj
+        8xY+bADEo2AUDCLAwAAA9nMkY1iTY54AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAENJREFUOE9j
+        GCjgDsVUA9egmGpg1EDKwcAbCEpjME3Y8E8oxiYHwyjplOoGEgIwTVQDowZSDga/gaA0RlI6oxJgYAAA
+        M3M07bXvdBkAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

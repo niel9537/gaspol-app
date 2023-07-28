@@ -293,6 +293,7 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(488, 344);
             panel4.TabIndex = 7;
+            panel4.Paint += panel4_Paint;
             // 
             // create1
             // 
@@ -304,6 +305,7 @@
             Name = "create1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "create1";
+            TopMost = true;
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
