@@ -10,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Menu = KASIR.Model.Menu;
 
 namespace KASIR.komponen
 {
@@ -38,7 +40,30 @@ namespace KASIR.komponen
 
         private void txtCari_TextChanged(object sender, EventArgs e)
         {
+            PerformSearch();
+        }
 
+        private void PerformSearch()
+        {
+            if (originalDataTable == null)
+                return;
+
+            string searchTerm = txtCari.Text.ToLower();
+
+            // Create a new DataTable to store the filtered rows
+            DataTable filteredDataTable = originalDataTable.Clone();
+
+            // Filter the rows based on the search term
+            IEnumerable<DataRow> filteredRows = originalDataTable.AsEnumerable()
+                .Where(row => row.ItemArray.Any(field => field.ToString().ToLower().Contains(searchTerm)));
+
+            foreach (DataRow row in filteredRows)
+            {
+                filteredDataTable.ImportRow(row);
+            }
+
+            // Set the filtered DataTable as the DataGridView's data source
+            dataGridView3.DataSource = filteredDataTable;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -84,7 +109,14 @@ namespace KASIR.komponen
         }
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                // Get the selected row
 
+                // Show the details form and pass the data
+                addCartForm addCartForm = new addCartForm();
+                addCartForm.ShowDialog(); // Show the form as a modal dialog
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)

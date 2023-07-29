@@ -88,3 +88,4 @@ D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.addCartForm.resources

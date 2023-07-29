@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,8 +16,6 @@ namespace KASIR.komponen
 {
     public partial class masterMenu : UserControl
     {
-        private Panel blurOverlayPanel;
-        private PictureBox pictureBoxBackground;
         private ApiService apiService;
         private DataTable originalDataTable;
         public masterMenu()
@@ -29,25 +26,8 @@ namespace KASIR.komponen
 
             // Retrieve data from the API and bind it to the DataGridView
             LoadData();
-
-            blurOverlayPanel = new Panel();
-            blurOverlayPanel.BackColor = Color.FromArgb(100, 0, 0, 0); // Semi-transparent black
-            blurOverlayPanel.Dock = DockStyle.Fill;
-            blurOverlayPanel.Visible = false; // The overlay is initially hidden
-            this.Controls.Add(blurOverlayPanel);
-
-            // Initialize the PictureBox to show the background screenshot
-            pictureBoxBackground = new PictureBox();
-            pictureBoxBackground.SizeMode = PictureBoxSizeMode.Zoom;
-            blurOverlayPanel.Controls.Add(pictureBoxBackground);
         }
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-            // Capture the screenshot of the form and set it as the PictureBox's image
-            Bitmap screenshot = new Bitmap(this.Width, this.Height);
-            this.DrawToBitmap(screenshot, new Rectangle(0, 0, this.Width, this.Height));
-            pictureBoxBackground.Image = ApplyBlurEffect(screenshot, 8); // Adjust the blur intensity as needed
-        }
+
         private async void LoadData()
         {
             try
@@ -83,10 +63,8 @@ namespace KASIR.komponen
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            blurOverlayPanel.Visible = true;
             createMenuForm createMenu = new createMenuForm();
             createMenu.Show();
-            blurOverlayPanel.Visible = false;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -134,30 +112,6 @@ namespace KASIR.komponen
                 detailMenuForm detailForm = new detailMenuForm(id.ToString());
                 detailForm.ShowDialog(); // Show the form as a modal dialog
             }
-        }
-
-        public Bitmap ApplyBlurEffect(Bitmap image, int blurAmount)
-        {
-            // Apply the Gaussian blur effect to the given image
-            if (blurAmount < 1) blurAmount = 1;
-            else if (blurAmount > 20) blurAmount = 20;
-
-            Bitmap blurredImage = new Bitmap(image.Width, image.Height);
-
-            using (Graphics graphics = Graphics.FromImage(blurredImage))
-            {
-                Rectangle rectangle = new Rectangle(0, 0, image.Width, image.Height);
-                ImageAttributes imageAttributes = new ImageAttributes();
-
-                ColorMatrix colorMatrix = new ColorMatrix();
-                colorMatrix.Matrix33 = blurAmount / 20.0f;
-
-                imageAttributes.SetColorMatrix(colorMatrix);
-
-                graphics.DrawImage(image, rectangle, 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, imageAttributes);
-            }
-
-            return blurredImage;
         }
     }
 }
