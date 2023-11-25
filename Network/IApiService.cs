@@ -13,7 +13,29 @@ namespace KASIR.Network
         Task<HttpResponseMessage> PostAddMenu(string jsonString, string url);
         Task<HttpResponseMessage> UpdateMenu(string url, string id, string jsonString);
         Task<HttpResponseMessage> DeleteMenu(string url, string id);
-
         Task<string> GetListMenu(string url);
+        Task<HttpResponseMessage> CreateCart(string jsonString, string url);
+        Task<string> GetCart(string url);
+        Task<string> GetItemOnCart(string url);
+        Task<HttpResponseMessage> DeleteCart(string url);
+        Task<HttpResponseMessage> PayBill(string jsonString, string url);
+        Task<string> PayBillTransaction(string jsonString, string url);
+        Task<string> SaveBill(string jsonString, string url);
+        Task<string> GetMenuDetailByID(string url, string id);
+        Task<HttpResponseMessage> UpdateCart(string jsonString, string url);
+        Task<string> GetDiscount(string url, string id);
+        Task<HttpResponseMessage> UseDiscount(string jsonString, string url);
+        Task<string> GetListBill(string url, string id);
+        Task<string> GetActiveCart(string url);
+        Task<string> GetTransactionRefund(string url);
+        Task<string> Refund(string jsonString, string url);
+        Task<HttpResponseMessage> inputPin(string jsonString, string url);
+        Task<string> GetCicilDetail(string url);
+        Task<HttpResponseMessage> cicilRefund(string jsonString, string url);
+        Task<string> CetakLaporanShift(string jsonString, string url);
+        Task<string> GetPaymentType(string url);
+        Task<HttpResponseMessage> notifikasiPengeluaran(string jsonString, string url);
+        Task<HttpResponseMessage> deleteCart(string jsonString, string url);
+        Task<string> Restruk(string url);
     }
 }

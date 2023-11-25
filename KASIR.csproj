@@ -9,10 +9,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Komponen\addCartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\dataDiskon.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Komponen\detailMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Komponen\createMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\cicilRefund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\deleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\notifikasiPengeluaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Komponen\printReportShift.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
@@ -39,6 +57,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="InTheHand.Net.Bluetooth" Version="4.0.36" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

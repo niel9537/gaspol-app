@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VYKAH5Zv7UehsJTM+LZmjEeKrMe9dkpdeAiXStKfJlBGqOG9Z1M6+tonOQPtCad96YnCyAYcX+moMLDTnB0z9A==",
+  "dgSpecHash": "fTmybnNziyK7DHM5/GupZ2MpphnH96ZloeMsSUz0knXpX7GHvs/B321ITynrEa8lNUNus/2Y1s/ALxWouUMgOw==",
   "success": true,
   "projectFilePath": "D:\\Project\\ATP2\\GaspolApp\\KASIR.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Niel\\.nuget\\packages\\inthehand.net.bluetooth\\4.0.36\\inthehand.net.bluetooth.4.0.36.nupkg.sha512",
     "C:\\Users\\Niel\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Niel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Niel\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",

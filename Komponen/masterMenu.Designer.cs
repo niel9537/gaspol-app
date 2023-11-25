@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
@@ -39,9 +40,10 @@
             label1 = new Label();
             panel1 = new Panel();
             panel3 = new Panel();
+            pictureBox1 = new PictureBox();
             textBox1 = new TextBox();
             btnAddMenu = new Button();
-            pictureBox1 = new PictureBox();
+            timer1 = new System.Windows.Forms.Timer(components);
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
@@ -63,6 +65,7 @@
             // 
             // panel2
             // 
+            panel2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panel2.BackColor = Color.White;
             panel2.Controls.Add(dataGridView1);
             panel2.Controls.Add(label1);
@@ -84,6 +87,7 @@
             dataGridViewCellStyle1.SelectionBackColor = Color.Gainsboro;
             dataGridViewCellStyle1.SelectionForeColor = Color.Black;
             dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = Color.SteelBlue;
             dataGridView1.BorderStyle = BorderStyle.None;
@@ -134,7 +138,6 @@
             dataGridView1.RowTemplate.DefaultCellStyle.ForeColor = Color.Black;
             dataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Gainsboro;
             dataGridView1.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.Black;
-            dataGridView1.RowTemplate.DividerHeight = 1;
             dataGridView1.RowTemplate.Height = 40;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.Size = new Size(888, 501);
@@ -143,6 +146,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.BackColor = Color.DarkGray;
             label1.Location = new Point(13, 1);
             label1.Name = "label1";
@@ -171,6 +175,17 @@
             panel3.Size = new Size(643, 29);
             panel3.TabIndex = 13;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources.search_20px;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox1.InitialImage = Properties.Resources.search_20px;
+            pictureBox1.Location = new Point(613, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(30, 28);
+            pictureBox1.TabIndex = 13;
+            pictureBox1.TabStop = false;
+            // 
             // textBox1
             // 
             textBox1.BackColor = Color.WhiteSmoke;
@@ -185,6 +200,8 @@
             // 
             // btnAddMenu
             // 
+            btnAddMenu.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            btnAddMenu.AutoSize = true;
             btnAddMenu.BackColor = Color.SteelBlue;
             btnAddMenu.FlatAppearance.BorderSize = 0;
             btnAddMenu.FlatStyle = FlatStyle.Flat;
@@ -197,16 +214,11 @@
             btnAddMenu.UseVisualStyleBackColor = false;
             btnAddMenu.Click += btnSimpan_Click;
             // 
-            // pictureBox1
+            // timer1
             // 
-            pictureBox1.BackgroundImage = Properties.Resources.search_20px;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox1.InitialImage = Properties.Resources.search_20px;
-            pictureBox1.Location = new Point(613, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(30, 28);
-            pictureBox1.TabIndex = 13;
-            pictureBox1.TabStop = false;
+            timer1.Enabled = true;
+            timer1.Interval = 2000;
+            timer1.Tick += timer1_Tick;
             // 
             // masterMenu
             // 
@@ -216,6 +228,7 @@
             Controls.Add(panel1);
             Name = "masterMenu";
             Size = new Size(912, 580);
+            Load += masterMenu_Load;
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
@@ -236,5 +249,6 @@
         private TextBox textBox1;
         private Panel panel3;
         private PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -39,6 +39,8 @@
             cmbTipe = new ComboBox();
             txtNama = new TextBox();
             button5 = new Button();
+            label2 = new Label();
+            label1 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
             flowVarian = new FlowLayoutPanel();
             panel1.SuspendLayout();
@@ -107,6 +109,8 @@
             panel2.Controls.Add(cmbTipe);
             panel2.Controls.Add(txtNama);
             panel2.Controls.Add(button5);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(label1);
             panel2.Location = new Point(3, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(585, 151);
@@ -114,10 +118,11 @@
             // 
             // txtHarga
             // 
-            txtHarga.Location = new Point(114, 80);
+            txtHarga.BorderStyle = BorderStyle.None;
+            txtHarga.Location = new Point(122, 87);
             txtHarga.Name = "txtHarga";
             txtHarga.PlaceholderText = "Harga Menu";
-            txtHarga.Size = new Size(471, 23);
+            txtHarga.Size = new Size(471, 16);
             txtHarga.TabIndex = 20;
             // 
             // btnTambah
@@ -137,18 +142,20 @@
             // cmbTipe
             // 
             cmbTipe.FormattingEnabled = true;
-            cmbTipe.Location = new Point(114, 51);
+            cmbTipe.Location = new Point(114, 53);
             cmbTipe.Name = "cmbTipe";
             cmbTipe.Size = new Size(471, 23);
             cmbTipe.TabIndex = 19;
             // 
             // txtNama
             // 
-            txtNama.Location = new Point(114, 22);
+            txtNama.BorderStyle = BorderStyle.None;
+            txtNama.Location = new Point(122, 26);
             txtNama.Name = "txtNama";
             txtNama.PlaceholderText = "Nama Menu";
-            txtNama.Size = new Size(471, 23);
+            txtNama.Size = new Size(459, 16);
             txtNama.TabIndex = 18;
+            txtNama.TextChanged += txtNama_TextChanged;
             // 
             // button5
             // 
@@ -165,6 +172,24 @@
             button5.Size = new Size(99, 164);
             button5.TabIndex = 17;
             button5.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            label2.BackColor = Color.White;
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(114, 18);
+            label2.Name = "label2";
+            label2.Size = new Size(471, 30);
+            label2.TabIndex = 22;
+            // 
+            // label1
+            // 
+            label1.BackColor = Color.White;
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(114, 81);
+            label1.Name = "label1";
+            label1.Size = new Size(471, 30);
+            label1.TabIndex = 23;
             // 
             // flowLayoutPanel1
             // 
@@ -202,6 +227,7 @@
             Padding = new Padding(1);
             StartPosition = FormStartPosition.CenterScreen;
             Text = "create1";
+            TopMost = true;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -228,5 +254,7 @@
         private TextBox txtHarga;
         private FlowLayoutPanel flowVarian;
         private Button btnHapus;
+        private Label label2;
+        private Label label1;
     }
 }

@@ -1,0 +1,11 @@
+D:\Project\ATP2\Build Kamis\KASIR.exe
+D:\Project\ATP2\Build Kamis\KASIR.dll
+D:\Project\ATP2\Build Kamis\KASIR.deps.json
+D:\Project\ATP2\Build Kamis\KASIR.runtimeconfig.json
+D:\Project\ATP2\Build Kamis\KASIR.dll.config
+D:\Project\ATP2\Build Kamis\KASIR.pdb
+D:\Project\ATP2\Build Kamis\InTheHand.Net.Bluetooth.dll
+D:\Project\ATP2\Build Kamis\Microsoft.Extensions.Configuration.dll
+D:\Project\ATP2\Build Kamis\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Project\ATP2\Build Kamis\Microsoft.Extensions.Primitives.dll
+D:\Project\ATP2\Build Kamis\Newtonsoft.Json.dll

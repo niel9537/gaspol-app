@@ -17,5 +17,14 @@ namespace KASIR.Model
         public string name { get; set; }
         public string menu_type { get; set; }
         public float price { get; set; }
+        public string image_url { get; set; }
+        public string receipt_number { get; set; }
+
+        public string outlet_id { get; set; }
+
+        public string cart_id { get; set; }
+
+        public string customer_name { get; set;}
+        public string customer_seat { get; set;}
     }
 }

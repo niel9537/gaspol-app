@@ -30,47 +30,35 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(createMenuForm));
             panel1 = new Panel();
-            label1 = new Label();
             btnKeluar = new Button();
             btnSimpan = new Button();
             panel2 = new Panel();
+            panel3 = new Panel();
+            cmbTipe = new ComboBox();
             txtHarga = new TextBox();
             btnTambah = new Button();
-            cmbTipe = new ComboBox();
             txtNama = new TextBox();
             button5 = new Button();
+            label2 = new Label();
+            label3 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
             flowVarian = new FlowLayoutPanel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.Window;
-            panel1.Controls.Add(label1);
             panel1.Controls.Add(btnKeluar);
             panel1.Controls.Add(btnSimpan);
             panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(1, 1);
+            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(598, 70);
+            panel1.Size = new Size(600, 70);
             panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.FlatStyle = FlatStyle.Flat;
-            label1.Font = new Font("Segoe UI Semibold", 18.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.SteelBlue;
-            label1.Location = new Point(212, 15);
-            label1.Name = "label1";
-            label1.Size = new Size(178, 35);
-            label1.TabIndex = 9;
-            label1.Text = "Tambah Menu";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += label1_Click_1;
             // 
             // btnKeluar
             // 
@@ -88,6 +76,7 @@
             // 
             // btnSimpan
             // 
+            btnSimpan.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             btnSimpan.BackColor = Color.SteelBlue;
             btnSimpan.FlatAppearance.BorderSize = 0;
             btnSimpan.FlatStyle = FlatStyle.Flat;
@@ -102,22 +91,44 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(panel3);
             panel2.Controls.Add(txtHarga);
             panel2.Controls.Add(btnTambah);
-            panel2.Controls.Add(cmbTipe);
             panel2.Controls.Add(txtNama);
             panel2.Controls.Add(button5);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(label3);
             panel2.Location = new Point(3, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(585, 151);
             panel2.TabIndex = 19;
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.Controls.Add(cmbTipe);
+            panel3.Location = new Point(114, 51);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(471, 28);
+            panel3.TabIndex = 23;
+            // 
+            // cmbTipe
+            // 
+            cmbTipe.FlatStyle = FlatStyle.Flat;
+            cmbTipe.FormattingEnabled = true;
+            cmbTipe.Location = new Point(17, 3);
+            cmbTipe.Name = "cmbTipe";
+            cmbTipe.Size = new Size(451, 23);
+            cmbTipe.TabIndex = 19;
+            cmbTipe.SelectedIndexChanged += cmbTipe_SelectedIndexChanged;
+            // 
             // txtHarga
             // 
-            txtHarga.Location = new Point(114, 80);
+            txtHarga.BorderStyle = BorderStyle.None;
+            txtHarga.Location = new Point(132, 89);
             txtHarga.Name = "txtHarga";
             txtHarga.PlaceholderText = "Harga Menu";
-            txtHarga.Size = new Size(471, 23);
+            txtHarga.Size = new Size(440, 16);
             txtHarga.TabIndex = 20;
             // 
             // btnTambah
@@ -134,20 +145,13 @@
             btnTambah.UseVisualStyleBackColor = false;
             btnTambah.Click += btnTambah_Click_1;
             // 
-            // cmbTipe
-            // 
-            cmbTipe.FormattingEnabled = true;
-            cmbTipe.Location = new Point(114, 51);
-            cmbTipe.Name = "cmbTipe";
-            cmbTipe.Size = new Size(471, 23);
-            cmbTipe.TabIndex = 19;
-            // 
             // txtNama
             // 
-            txtNama.Location = new Point(114, 22);
+            txtNama.BorderStyle = BorderStyle.None;
+            txtNama.Location = new Point(131, 23);
             txtNama.Name = "txtNama";
             txtNama.PlaceholderText = "Nama Menu";
-            txtNama.Size = new Size(471, 23);
+            txtNama.Size = new Size(451, 16);
             txtNama.TabIndex = 18;
             // 
             // button5
@@ -160,11 +164,29 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.ForeColor = Color.Black;
             button5.ImageAlign = ContentAlignment.TopLeft;
-            button5.Location = new Point(9, -16);
+            button5.Location = new Point(9, -34);
             button5.Name = "button5";
-            button5.Size = new Size(99, 164);
+            button5.Size = new Size(99, 182);
             button5.TabIndex = 17;
             button5.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            label2.BackColor = Color.White;
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(114, 16);
+            label2.Name = "label2";
+            label2.Size = new Size(471, 30);
+            label2.TabIndex = 21;
+            // 
+            // label3
+            // 
+            label3.BackColor = Color.White;
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(114, 82);
+            label3.Name = "label3";
+            label3.Size = new Size(471, 30);
+            label3.TabIndex = 22;
             // 
             // flowLayoutPanel1
             // 
@@ -173,19 +195,20 @@
             flowLayoutPanel1.Controls.Add(panel2);
             flowLayoutPanel1.Controls.Add(flowVarian);
             flowLayoutPanel1.Dock = DockStyle.Fill;
-            flowLayoutPanel1.Location = new Point(1, 71);
+            flowLayoutPanel1.Location = new Point(0, 70);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(598, 328);
+            flowLayoutPanel1.Size = new Size(600, 330);
             flowLayoutPanel1.TabIndex = 1;
             flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
             // 
             // flowVarian
             // 
+            flowVarian.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             flowVarian.FlowDirection = FlowDirection.TopDown;
             flowVarian.Location = new Point(3, 160);
             flowVarian.Name = "flowVarian";
             flowVarian.Padding = new Padding(5, 0, 0, 0);
-            flowVarian.Size = new Size(585, 165);
+            flowVarian.Size = new Size(585, 170);
             flowVarian.TabIndex = 20;
             flowVarian.Paint += flowVarian_Paint;
             // 
@@ -193,20 +216,24 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Silver;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(600, 400);
+            ControlBox = false;
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
+            MinimizeBox = false;
             Name = "createMenuForm";
-            Padding = new Padding(1);
-            StartPosition = FormStartPosition.CenterScreen;
+            StartPosition = FormStartPosition.CenterParent;
             Text = "create1";
+            TopMost = true;
+            Resize += createMenuForm_Resize;
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel3.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -221,7 +248,6 @@
         private Panel panel1;
         private Button btnSimpan;
         private Button btnKeluar;
-        private Label label1;
         private Panel panel2;
         private TextBox txtNama;
         private Button button5;
@@ -230,5 +256,8 @@
         private Button btnTambah;
         private TextBox txtHarga;
         private FlowLayoutPanel flowVarian;
+        private Label label2;
+        private Label label3;
+        private Panel panel3;
     }
 }

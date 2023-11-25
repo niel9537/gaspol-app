@@ -1,36 +1,30 @@
-﻿using System;
+﻿using KASIR.Komponen;
+using System;
 using System.Collections.Generic;
 using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace KASIR.Util
-{
-    public class Util
+public class Util
     {
-        public Bitmap ApplyBlurEffect(Bitmap image, int blurAmount)
+        // Your other utility functions here
+        blur background = new blur();
+        public void ShowBlurredDialog(Form formToShow)
         {
-            // Apply the Gaussian blur effect to the given image
-            if (blurAmount < 1) blurAmount = 1;
-            else if (blurAmount > 20) blurAmount = 20;
-
-            Bitmap blurredImage = new Bitmap(image.Width, image.Height);
-
-            using (Graphics graphics = Graphics.FromImage(blurredImage))
-            {
-                Rectangle rectangle = new Rectangle(0, 0, image.Width, image.Height);
-                ImageAttributes imageAttributes = new ImageAttributes();
-
-                ColorMatrix colorMatrix = new ColorMatrix();
-                colorMatrix.Matrix33 = blurAmount / 20.0f;
-
-                imageAttributes.SetColorMatrix(colorMatrix);
-
-                graphics.DrawImage(image, rectangle, 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, imageAttributes);
-            }
-
-            return blurredImage;
+            background.StartPosition = FormStartPosition.CenterScreen;
+            background.FormBorderStyle = FormBorderStyle.None;
+            background.Opacity = 0.7d;
+            background.BackColor = Color.Black;
+            background.WindowState = FormWindowState.Maximized;
+            background.TopMost = true;
+            background.Size = formToShow.Size;
+            background.Location = formToShow.Location;
+            background.ShowInTaskbar = false;
+            background.Show();
+            formToShow.Owner = background;
+            formToShow.ShowDialog();
+            background.Dispose();
         }
+
+        
     }
-}

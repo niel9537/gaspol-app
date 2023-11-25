@@ -1,0 +1,11 @@
+D:\Project\ATP2\Setup\KASIR.exe
+D:\Project\ATP2\Setup\KASIR.dll
+D:\Project\ATP2\Setup\KASIR.deps.json
+D:\Project\ATP2\Setup\KASIR.runtimeconfig.json
+D:\Project\ATP2\Setup\KASIR.dll.config
+D:\Project\ATP2\Setup\KASIR.pdb
+D:\Project\ATP2\Setup\InTheHand.Net.Bluetooth.dll
+D:\Project\ATP2\Setup\Microsoft.Extensions.Configuration.dll
+D:\Project\ATP2\Setup\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Project\ATP2\Setup\Microsoft.Extensions.Primitives.dll
+D:\Project\ATP2\Setup\Newtonsoft.Json.dll

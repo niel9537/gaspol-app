@@ -64,7 +64,6 @@ D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll
 D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.pdb
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Form1.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
-D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
@@ -88,3 +87,245 @@ D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
 D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.addCartForm.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.blur.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataBill.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\KASIR.exe
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\UI VISCOD\New folder (3)\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.addCartForm.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.blur.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataBill.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\UI VISCOD\New folder (3)\GaspolApp\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.buyerForm.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.updateCartForm.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.payForm.resources
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\KASIR.exe
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.addCartForm.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.blur.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.buyerForm.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataBill.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.payForm.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.updateCartForm.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.dll
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.pdb
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.saveBill.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.saveBill.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.successTransaction.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.successTransaction.resources
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.refund.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.refund.resources
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\KASIR.exe
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\KASIR.pdb
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\InTheHand.Net.Bluetooth.dll
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Project\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.addCartForm.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.blur.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.buyerForm.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataBill.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.payForm.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.refund.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.saveBill.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.successTransaction.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.updateCartForm.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.dll
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.pdb
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\Project\GaspolApp\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\UI VISCOD\GaspolApp\bin\Debug\net6.0-windows\InTheHand.Net.Bluetooth.dll
+D:\Project\ATP2\GaspolApp\bin\Debug\net6.0-windows\InTheHand.Net.Bluetooth.dll
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\KASIR.exe
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\KASIR.pdb
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\InTheHand.Net.Bluetooth.dll
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\gaspol app baru\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.addCartForm.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.blur.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.buyerForm.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataBill.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.payForm.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.refund.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.saveBill.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.successTransaction.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.updateCartForm.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.dll
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.pdb
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\gaspol app baru\GaspolApp\obj\Debug\net6.0-windows\ref\KASIR.dll
+D:\UI VISCOD\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.inputPin.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.inputPin.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataDiskon.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.cicilRefund.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.printReportShift.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.notifikasiPengeluaran.resources
+D:\Project\ATP2\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.deleteForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.AssemblyReference.cache
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Form1.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.addCartForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.blur.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.buyerForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.cicilRefund.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.create1.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.createMenuForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataBill.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.dataDiskon.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.deleteForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.detailMenuForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.dtlPesanan1.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.inputPin.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterMenu.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.masterPos.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.notifikasiPengeluaran.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.payForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.printReportShift.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.refund.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.saveBill.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.successTransaction.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.update1.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Komponen.updateCartForm.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.komponen.widget.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.Properties.Resources.resources
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.GenerateResource.cache
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfoInputs.cache
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.AssemblyInfo.cs
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CoreCompileInputs.cache
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\KASIR.exe
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll.config
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\KASIR.deps.json
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\KASIR.runtimeconfig.json
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\KASIR.dll
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\KASIR.pdb
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\InTheHand.Net.Bluetooth.dll
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Last\GaspolApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.csproj.CopyComplete
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.dll
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\refint\KASIR.dll
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.pdb
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\KASIR.genruntimeconfig.cache
+D:\Last\GaspolApp\obj\Debug\net6.0-windows\ref\KASIR.dll

@@ -1,0 +1,11 @@
+D:\Last\Builded\KASIR.exe
+D:\Last\Builded\KASIR.dll
+D:\Last\Builded\KASIR.deps.json
+D:\Last\Builded\KASIR.runtimeconfig.json
+D:\Last\Builded\KASIR.dll.config
+D:\Last\Builded\KASIR.pdb
+D:\Last\Builded\InTheHand.Net.Bluetooth.dll
+D:\Last\Builded\Microsoft.Extensions.Configuration.dll
+D:\Last\Builded\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Last\Builded\Microsoft.Extensions.Primitives.dll
+D:\Last\Builded\Newtonsoft.Json.dll

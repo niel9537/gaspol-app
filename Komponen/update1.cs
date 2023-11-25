@@ -20,9 +20,14 @@ namespace KASIR.komponen
         private void button1_Click(object sender, EventArgs e)
         {
             masterMenu c = new masterMenu();
-            
+
             c.BringToFront();
             c.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

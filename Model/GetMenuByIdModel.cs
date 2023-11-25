@@ -16,26 +16,27 @@ namespace KASIR.Model
         public int id { get; set; }
         public string name { get; set; }
         public string menu_type { get; set; }
-        public int price { get; set; }
-        public int dine_in_price { get; set; }
-        public int take_away_price { get; set; }
-        public int delivery_service_price { get; set; }
-        public int gofood_price { get; set; }
-        public int grabfood_price { get; set; }
-        public int shopeefood_price { get; set; }
+        public string image_url { get; set; }
+        public List<MenuPrice> menu_prices { get; set; }
+        public List<ServingType> serving_types { get; set; }
         public List<MenuDetailS> menu_details { get; set; }
+
     }
 
     public class MenuDetailS
     {
         public int menu_detail_id { get; set; }
         public string varian { get; set; }
+        public List<MenuPrice> menu_prices { get; set; }
+    }
+    public class MenuPrice
+    {
+        public int serving_type_id { get; set; }
         public int price { get; set; }
-        public int dine_in_price { get; set; }
-        public int take_away_price { get; set; }
-        public int delivery_service_price { get; set; }
-        public int gofood_price { get; set; }
-        public int grabfood_price { get; set; }
-        public int shopeefood_price { get; set; }
+    }
+    public class ServingType
+    {
+        public int id { get; set; }
+        public string name { get; set; }
     }
 }

@@ -179,6 +179,7 @@
             button5.Size = new Size(148, 135);
             button5.TabIndex = 16;
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // panel3
             // 

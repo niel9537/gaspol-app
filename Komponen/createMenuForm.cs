@@ -23,6 +23,10 @@ namespace KASIR.komponen
         private List<string> namaVarian = new List<string>();
         private List<string> hargaVarian = new List<string>();
         private List<Panel> dynamicGroups = new List<Panel>();
+
+        private const int PaddingWidth = 100;
+        private const int PaddingHeight = 100;
+        public bool ReloadDataInBaseForm { get; private set; }
         public createMenuForm()
         {
             InitializeComponent();
@@ -33,46 +37,48 @@ namespace KASIR.komponen
             cmbTipe.Items.Add("Silahkan pilih tipe menu");
             cmbTipe.SelectedIndex = 2;
             cmbTipe.ForeColor = Color.Gray;
-        }
+            StartPosition = FormStartPosition.CenterParent;
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
-            this.Close();
+            // Set the initial form size
 
+
+            int newHeight = Screen.PrimaryScreen.WorkingArea.Height - 100;
+
+            //int availableHeight = Screen.PrimaryScreen.WorkingArea.Height;
+            //int maxHeight = availableHeight - (2 * PaddingHeight);
+            //int newHeight = Math.Min(maxHeight, Height);
+            //Size = new Size(Width, newHeight);
+
+            Height = newHeight;
+            //Point mainFormLocation = Owner.Location;
+            //Location = new Point(mainFormLocation.X, mainFormLocation.Y + PaddingHeight);
         }
 
         private void LoadTipe()
         {
-            // Simulate loading categories from a data source
             string[] tipe = { "Makanan", "Minuman" };
 
-            //Populate the ComboBox with categories
             cmbTipe.Items.AddRange(tipe);
         }
 
 
         private void btnTambah_Click_1(object sender, EventArgs e)
         {
-            // Create a new Panel to hold two TextBoxes
             Panel newGroup = new Panel
             {
-                Width = 560, // Adjust the width as needed
-                Height = 90  // Adjust the height as needed
+                Width = 560,
+                Height = 90
             };
-
-            // Create two TextBoxes
 
             TextBox textBox1 = new TextBox { Width = 560, PlaceholderText = "Nama Varian ke " + (flowVarian.Controls.Count + 1) };
             TextBox textBox2 = new TextBox { Width = 560, Top = textBox1.Height + 5, PlaceholderText = "Harga Varian ke " + (flowVarian.Controls.Count + 1) };
             Button buttonRemove = new Button { Width = 560, Top = textBox1.Height + 35, Text = "Batal" };
             buttonRemove.Click += (s, ev) => RemoveGroup(newGroup);
-            // Add the TextBoxes to the Panel
             newGroup.Controls.Add(textBox1);
             newGroup.Controls.Add(textBox2);
             newGroup.Controls.Add(buttonRemove);
             dynamicGroups.Add(newGroup);
-            // Add the Panel (group) to the FlowLayoutPanel
             flowVarian.Controls.Add(newGroup);
         }
 
@@ -80,7 +86,6 @@ namespace KASIR.komponen
         {
             flowVarian.Controls.Remove(newGroup);
 
-            // Remove the group from the list of dynamic groups
             dynamicGroups.Remove(newGroup);
         }
 
@@ -94,15 +99,12 @@ namespace KASIR.komponen
             namaVarian.Clear();
             hargaVarian.Clear();
 
-            // Validation flag to check if any textbox is empty
             bool anyEmptyTextBox = false;
 
-            // Loop through all the Panels (groups) in the FlowLayoutPanel
             foreach (Control group in flowVarian.Controls)
             {
                 if (group is Panel panel && panel.Controls.Count >= 2)
                 {
-                    // Get the first TextBox (textBox1) and add its value to textBox1Values list
                     if (panel.Controls[0] is TextBox textBox1)
                     {
                         if (string.IsNullOrWhiteSpace(textBox1.Text))
@@ -117,7 +119,6 @@ namespace KASIR.komponen
                         }
                     }
 
-                    // Get the second TextBox (textBox2) and try to parse its value as a float (nullable)
                     if (panel.Controls[1] is TextBox textBox2)
                     {
                         if (string.IsNullOrWhiteSpace(textBox2.Text))
@@ -134,13 +135,11 @@ namespace KASIR.komponen
                 }
             }
 
-            // Show warning if any textbox is empty
             if (anyEmptyTextBox)
             {
                 MessageBox.Show("Please fill all textboxes before proceeding.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            // Show warning if any textbox is empty
             if (string.IsNullOrWhiteSpace(txtNama.Text))
             {
                 MessageBox.Show("Please fill all textboxes before proceeding.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -151,36 +150,28 @@ namespace KASIR.komponen
                 MessageBox.Show("Please fill all textboxes before proceeding.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            // Check if the user has selected the "Please select" item
             if (cmbTipe.SelectedIndex == 2)
             {
                 MessageBox.Show("Please select a menu type before proceeding.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            /*   string valuesMessage1 = "Values for TextBox1:\n" + string.Join("\n", namaVarian);
-               string valuesMessage2 = "Values for TextBox2:\n" + string.Join("\n", hargaVarian);
-               MessageBox.Show(valuesMessage1 + "\n\n" + valuesMessage2);*/
 
             List<Dictionary<string, object>> menuDetailsList = new List<Dictionary<string, object>>();
 
-            // Loop through the collected values in textBox1Values and textBox2Values lists
             for (int i = 0; i < namaVarian.Count; i++)
             {
                 string varian = namaVarian[i];
                 string price = hargaVarian[i];
 
-                // Create a dictionary for each "varian" and "price" pair
                 Dictionary<string, object> varianPricePair = new Dictionary<string, object>
                 {
                     { "varian", varian },
                     { "price", price }
                 };
 
-                // Add the dictionary to the menuDetailsList
                 menuDetailsList.Add(varianPricePair);
             }
 
-            // Create the main JSON object
             var json = new
             {
                 name = txtNama.Text,
@@ -189,28 +180,27 @@ namespace KASIR.komponen
                 menu_details = menuDetailsList
             };
 
-            // Convert the JSON object to a JSON string
             string jsonString = JsonConvert.SerializeObject(json, Formatting.Indented);
 
-            // Do whatever you want with the generated JSON string.
-            // For example, you can display it in a MessageBox or send it in an HTTP request.
-            // MessageBox.Show(jsonString);
-            // Create an instance of the ApiService
             IApiService apiService = new ApiService();
 
-            // Send the POST request with the JSON string as the raw JSON body
             HttpResponseMessage response = await apiService.PostAddMenu(jsonString, "/menu");
 
             if (response != null)
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    // Request succeeded
-                    MessageBox.Show("Data berhasil disimpan  " + response.StatusCode);
+                    DialogResult result = MessageBox.Show("Data berhasil disimpan" + response.StatusCode, "Confirmation", MessageBoxButtons.OK);
+
+                    if (result == DialogResult.OK)
+                    {
+                        ReloadDataInBaseForm = true;
+
+                    }
+                    this.DialogResult = result;
                 }
                 else
                 {
-                    // Request failed
                     MessageBox.Show("Data gagal disimpan  " + response.StatusCode);
                 }
             }
@@ -222,6 +212,24 @@ namespace KASIR.komponen
         }
 
         private void flowVarian_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void createMenuForm_Resize(object sender, EventArgs e)
+        {
+            AdjustFormSize();
+        }
+
+        private void AdjustFormSize()
+        {
+            //int newHeight = Screen.GetBounds(Point.Empty).Height - (5 * PaddingHeight);
+            //int newHeight = Screen.PrimaryScreen.WorkingArea.Height - (5 * PaddingHeight);
+            // Update the form size
+            //Size = new Size(Width, newHeight);
+        }
+
+        private void cmbTipe_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
